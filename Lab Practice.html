@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #4CAF50;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+        td {
+            padding: 10px;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        textarea {
+            resize: none;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="fname">First Name:</label></td>
+                <td><input type="text" id="fname" name="fname" placeholder="Enter First Name"></td>
+                <td><label for="lname">Last Name:</label></td>
+                <td><input type="text" id="lname" name="lname" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter Email"></td>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="tel" id="phone" name="phone" placeholder="Enter Phone Number"></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <label for="query">What do you have in mind:</label><br>
+                    <textarea id="query" name="query" rows="4" placeholder="Please enter query..."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align:center;">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
