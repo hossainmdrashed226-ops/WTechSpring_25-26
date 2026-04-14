@@ -9,7 +9,7 @@ include "../Controller/RegistrationController.php";
 <form method="post" action="">
     <table>
 
-        <!-- Name -->
+       
         <tr>
             <td><label>Name:</label></td>
             <td>
@@ -18,7 +18,7 @@ include "../Controller/RegistrationController.php";
             </td>
         </tr>
 
-        <!-- Email -->
+       
         <tr>
             <td><label>Email:</label></td>
             <td>
@@ -27,7 +27,7 @@ include "../Controller/RegistrationController.php";
             </td>
         </tr>
 
-        <!-- Website -->
+        
         <tr>
             <td><label>Website:</label></td>
             <td>
@@ -35,7 +35,7 @@ include "../Controller/RegistrationController.php";
             </td>
         </tr>
 
-        <!-- Comment -->
+        
         <tr>
             <td><label>Comment:</label></td>
             <td>
@@ -43,7 +43,7 @@ include "../Controller/RegistrationController.php";
             </td>
         </tr>
 
-        <!-- Gender -->
+       
         <tr>
             <td><label>Gender:</label></td>
             <td>
@@ -54,7 +54,7 @@ include "../Controller/RegistrationController.php";
             </td>
         </tr>
 
-        <!-- Submit -->
+       
         <tr>
             <td>
                 <input type="submit" name="submit" value="Submit">
