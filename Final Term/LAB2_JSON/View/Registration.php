@@ -48,8 +48,12 @@ include "../Controller/RegistrationController.php";
                 <?php echo $validGender; ?>
             </td>
         </tr>
-
         <tr>
+            <td> File Upload:</td>
+            <td> <input type="file" name="file"></td>
+            </tr>
+
+    <tr>
             <td>
                 <input type="submit" value="Submit">
             </td>
